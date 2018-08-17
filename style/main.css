@@ -270,16 +270,17 @@ body {
 	margin-top: 58px;
 }
 .work-container {
+	margin: 0 auto;
 	margin-top: 145px;
 	display: flex;
-	flex-grow: 1;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-bottom: 100px;
+	max-width: 1145px;
 }
 .masterpiece {
-	width: 265px;
-	height: 239px;
+	width: 263px;
+	height: 237px;
 	margin-top: 30px
 }
 .nomr {
