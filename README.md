@@ -4,9 +4,10 @@ PSD to HTML practice, "MYCOMPANY" site markup.
 PSD file can be found in main directory of this repository.
 
 Technology used :
-  CSS
-  HTML
+  CSS,
+  HTML,
   JQuery.
+See online at: (https://seri0usdan.github.io/PSD-to-HTML-MYCOMPANY/)
 
 ![MyCompany site][logo]
 
