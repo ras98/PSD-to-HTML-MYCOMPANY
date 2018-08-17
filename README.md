@@ -7,3 +7,7 @@ Technology used :
   CSS
   HTML
   JQuery.
+
+![MyCompany site][logo]
+
+[logo]: https://preview.ibb.co/cqeVAz/2.jpg "MyCompany site"
