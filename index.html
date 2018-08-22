@@ -3,6 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>mycompany</title>
+
+	<!--  FAVicon   -->
+
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="images/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#FCAC45">
+
+	<!--  /FAVicon   -->
+
 	<link rel="stylesheet" href="style/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -159,7 +174,7 @@
 				<h1>contact us</h1>
 				<div class="line"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-				<form class = "contact-form" action="">
+				<form class = "contact-form" action="submit">
 					<div class="flex-container">
 						<div class = "name-input" >
 								<span class="name">Name <span class = "star">*</span></span>
@@ -172,7 +187,7 @@
 					</div>
 					
 					<span class="message">Message <span class = "star">*</span></span>
-					<textarea type= "text" name = "Message"></textarea>
+					<textarea name = "Message"></textarea>
 					<input type="submit" name = "Submit" value = "SEND" class = "send-btn">
 				</form>
 			</div>
@@ -180,11 +195,11 @@
 
 		<footer class = "main-footer">
 			<div class="socials">
-				<div class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
-				<div class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></div>
-				<div class="gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
-				<div class="linkdn"><a href="#"><i class="fab fa-linkedin-in"></a></i></div>
-				<div class="dribble"><a href="#"><i class="fab fa-dribbble"></i></a></div>
+				<a href="#"><div class="facebook"><i class="fab fa-facebook-f"></i></div></a>
+				<a href="#"><div class="twitter"><i class="fab fa-twitter"></i></div></a>
+				<a href="#"><div class="gplus"><i class="fab fa-google-plus-g"></i></div></a>
+				<a href="#"><div class="linkdn"><i class="fab fa-linkedin-in"></i></div></a>
+				<a href="#"><div class="dribble"><i class="fab fa-dribbble"></i></div></a>
 			</div>
 		</footer>
 </main>

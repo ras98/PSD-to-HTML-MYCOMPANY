@@ -31,9 +31,20 @@ body {
 	padding: 0 2px 12px 2px;
 	margin: 0 16px;
 	line-height: 1.5;
+	position: relative;
 }
-.main-header nav ul li a:hover {
-	border-bottom: 3px solid #fcac45;
+.main-header nav ul li a::before {
+	content: "";
+	height: 3px;
+	background-color: #fcac45;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 0%;
+}
+.main-header nav ul li a:hover::before {
+	width: 100%;
+	transition: .2s ease;
 }
 .logo {
 	text-transform: uppercase;
@@ -69,7 +80,7 @@ body {
 	font-weight: bold;
 }
 .wrapper {
-	width: 76%;
+	width: 1150px;
 	margin: 0 auto;
 }
 #about{
@@ -162,7 +173,7 @@ body {
 }
 .team-member span {
 	display: block;
-	font-size: 16;
+	font-size: 16px;
 	font-weight: normal;
 	text-align: center;
 	margin-top: 12px;
@@ -292,7 +303,7 @@ body {
 }
 .scrow {
 	background: url(../images/2row.png), no-repeat;
-	background-position: center 0px left 10px;
+	background-position: center left;
 }
 .throw {
 	background: url(../images/3row.png), no-repeat;
@@ -367,14 +378,21 @@ body {
 	border-radius: 50%;
 	border: 2px solid #b2b2b2;
 	margin-right: 14px;
+	font-size: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.socials div i {
-	font-size: 15px;
+.socials div:hover {
+	background: #000;
+	transition: .25s ease;
+}
+.socials div i{
 	color: #b2b2b2;
-	padding: 5px;
+}
+.socials div i:hover {
+	color: #FFF;
+	transition: .25s ease;
 }
 .contact-form {
 	margin-top: 100px;
