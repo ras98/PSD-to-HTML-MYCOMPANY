@@ -6,8 +6,8 @@ PSD file can be found in main directory of this repository.
 Technology used :
   CSS,
   HTML,
-  JQuery.
-See online at: (https://seri0usdan.github.io/PSD-to-HTML-MYCOMPANY/)
+  JQuery.</br>
+Watch online @ https://thedanielras.github.io/PSD-to-HTML-MYCOMPANY/
 
 ![MyCompany site][logo]
 
